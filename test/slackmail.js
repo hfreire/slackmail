@@ -31,12 +31,20 @@ describe('Slackmail', () => {
     const username = 'my-username'
     const channel = 'my-channel'
 
-    beforeEach(async () => {
+    beforeAll(async () => {
       await subject.send(email, url, username, channel)
     })
 
-    it('should send slack message', () => {
+    it('should construct slack incoming webhook with url', () => {
+      expect(IncomingWebhook.prototype.constructor).toHaveBeenCalledWith(url)
+    })
+
+    it('should send only one slack message', () => {
       expect(IncomingWebhook.prototype.send).toHaveBeenCalledTimes(1)
+    })
+
+    it('should send slack message with username and channel', () => {
+      expect(IncomingWebhook.prototype.send).toHaveBeenCalledWith(expect.objectContaining({ username, channel }))
     })
   })
 })
