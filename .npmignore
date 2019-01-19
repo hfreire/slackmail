@@ -1,0 +1,6 @@
+src/
+test/
+.babelrc
+.eslint*
+.snyk
+.travis.yml
