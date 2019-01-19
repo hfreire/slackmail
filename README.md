@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/hfreire/slackmail/badge.svg?branch=master)](https://coveralls.io/github/hfreire/slackmail?branch=master)
 [![](https://img.shields.io/github/release/hfreire/slackmail.svg)](https://github.com/hfreire/slackmail/releases)
 [![Version](https://img.shields.io/npm/v/slackmail.svg)](https://www.npmjs.com/package/slackmail)
-[![Downloads](https://img.shields.io/npm/dt/slackmail.svg)](https://www.npmjs.com/package/slackmail) [![Greenkeeper badge](https://badges.greenkeeper.io/hfreire/slackmail.svg)](https://greenkeeper.io/) 
+[![Downloads](https://img.shields.io/npm/dt/slackmail.svg)](https://www.npmjs.com/package/slackmail)
 
 > Parses your incoming e-mail and sends a beautiful crafted message to a Slack channel.
 
