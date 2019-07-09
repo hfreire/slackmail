@@ -22,7 +22,7 @@
   "dependencies": {
     "@slack/client": "5.0.1",
     "commander": "2.20.0",
-    "lodash": "4.17.12",
+    "lodash": "4.17.13",
     "mailparser": "2.7.1"
   },
   "devDependencies": {
