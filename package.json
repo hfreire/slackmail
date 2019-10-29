@@ -23,7 +23,7 @@
     "@slack/client": "5.0.2",
     "commander": "2.20.0",
     "lodash": "4.17.15",
-    "mailparser": "2.7.1"
+    "mailparser": "2.7.5"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
