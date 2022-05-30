@@ -21,7 +21,7 @@
   "homepage": "https://github.com/hfreire/slackmail#readme",
   "dependencies": {
     "@slack/client": "5.0.2",
-    "commander": "8.3.0",
+    "commander": "9.3.0",
     "lodash": "4.17.21",
     "mailparser": "3.4.0"
   },
